@@ -68,7 +68,8 @@ const RepositoryList = () => {
                                 stargazersCount={item.stargazersCount}
                                 forksCount={item.forksCount}
                                 reviewCount={item.reviewCount}
-                                ratingAverage={item.ratingAverage} />}
+                                ratingAverage={item.ratingAverage} 
+                                ownerAvatarUrl={item.ownerAvatarUrl} />}
       keyExtractor={item => item.id}
     />
   );
