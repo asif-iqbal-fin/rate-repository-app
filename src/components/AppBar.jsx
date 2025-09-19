@@ -1,13 +1,7 @@
 import { View, StyleSheet, Pressable, Text } from 'react-native';
-import Constants from 'expo-constants';
 import AppBarTab from './AppBarTab';
 
 const styles = StyleSheet.create({
-  container: {
-    paddingTop: Constants.statusBarHeight,
-    justifyContent: 'space-around',
-    // ...
-  },
   appbar:{
     flexDirection: 'row',
     alignItems: 'stretch',
@@ -15,17 +9,6 @@ const styles = StyleSheet.create({
     height: 100,
     paddingHorizontal: 16,
     paddingTop: 20,
-  },
-  tab:{
-    paddingVertical: 20,
-    paddingHorizontal: 15,
-    borderRadius: 1,
-    backgroundColor: '#24292e',
-  },
-  tabText:{
-    fontSize: 32,
-    fontWeight: 'bold',
-    color: '#ffffffff',
   }
 });
 
